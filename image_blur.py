@@ -1,6 +1,6 @@
 import cv2 
 
-img = cv2.imread('gfg.png')
+img = cv2.imread('gfg.jpg')
 
 # Blurring methods
 avging = cv2.blur(img, (10,10))
@@ -16,4 +16,5 @@ cv2.imshow('Median Blurring', medBlur)
 cv2.imshow('Bilateral Filtering', bilFilter)
 
 cv2.waitKey(0)
+
 cv2.destroyAllWindows()
