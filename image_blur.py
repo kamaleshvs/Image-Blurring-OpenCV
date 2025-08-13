@@ -18,3 +18,4 @@ cv2.imshow('Bilateral Filtering', bilFilter)
 cv2.waitKey(0)
 
 cv2.destroyAllWindows()
+
